@@ -42,11 +42,6 @@ namespace LoadTester.Models
 			
 
             });
-						var contentSetId = reader.GetInt32("contentSetId");
-						var categoryId = reader.GetInt32("categoryId");
-						var name = reader.GetString("name");
-			 			string row = $"{contentSetId}\t\t{categoryId}\t\t{name}";
-                System.Console.WriteLine(row);
           }
         }
       }
