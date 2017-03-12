@@ -12,7 +12,7 @@ namespace LoadTester.Controllers
 	{
 		public string Get()
 		{
-			return "APP running current server time: " + DateTime.Now.ToString(@"MM\/dd\/yyyy h\:mm tt");
+			return "APP V0.01 running current server time: " + DateTime.Now.ToString(@"MM\/dd\/yyyy h\:mm tt");
 		}
 
 	}
